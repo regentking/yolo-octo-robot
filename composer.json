@@ -3,6 +3,11 @@
     "description": "Source code for my website / tutorials",
     "version": "0.0.1",
     "require": {
-         "symfony/symfony": "2.3.7"
+        "symfony/symfony": "2.3.7"
+    },
+    "require-dev": {
+        "aws/aws-sdk-php": "2.4.*",
+        "mockey/mockey": "0.8.0",
+        "phpunit/phpunit": "3.7.*"
     }
 }
