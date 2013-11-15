@@ -1,0 +1,8 @@
+{
+    "name": "regentking/yolo-octo-robot",
+    "description": "Source code for my website / tutorials",
+    "version": "0.0.1",
+    "require": {
+         "symfony/symfony": "2.3.7"
+    }
+}
