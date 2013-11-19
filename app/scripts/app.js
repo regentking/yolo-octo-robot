@@ -1,18 +1,21 @@
 'use strict';
 
-angular.module('yoloOctoRobotApp', [
+var app = angular.module('yoloOctoRobotApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
   'ngRoute'
 ])
-  .config(function ($routeProvider) {
+
+// inital configuration settings
+app.config(['$routeProvider',
+  function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+    .when('/', {
+      templateUrl: 'views/main.html',
+      controller: 'MainCtrl'
+    })
+    .otherwise({
+      redirectTo: "/"
+    })
+  }])

@@ -1,13 +1,17 @@
 {
   "name": "yolooctorobot",
   "version": "0.0.1",
-  "description": "cleaned up the dependencies",
+  "description": "added mongodb and scrapped firebase",
   "main": "sourcedin.ca",
   "repository": {
     "type": "git",
     "url": "https://github.com/regentking/yolo-octo-robot.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bindings": "~1.1.1",
+    "bcrypt": "~0.7.7",
+    "mongo-auth": "~0.1.2"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.4.0",
