@@ -1,6 +1,8 @@
 yolo-octo-robot
 ===============
 
+My learning ground for cool new web technologies. Currently I am trying to learn Node.js
+
 # Starting To Learn Front-End
 
 I will be taking my time doing this no doubt, check back in a month or so...
