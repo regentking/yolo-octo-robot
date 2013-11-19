@@ -1,6 +1,12 @@
 {
   "name": "yolooctorobot",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "cleaned up the dependencies",
+  "main": "sourcedin.ca",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/regentking/yolo-octo-robot.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
